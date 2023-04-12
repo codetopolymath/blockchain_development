@@ -1,0 +1,13 @@
+way to generate keys is illustrated in public_vs_private_key.py file, please find instuction there.
+SYMMETRIC VS ASYMMETRIC CRYPTOGRAPHY:
+    [*] symmetric cryptography uses same key in between sender and receiver. key is used to encrypt and decrypt message.
+    [*] assymetric cryptography used two types of keys, public and private. linked with special mathematical relation. 
+        eg:
+            message ---> encrypted with public key ---> decrypt only with private key
+            message ---> encrypted with private key ---> decrypt only with public key
+        so with assymetric cryptography people can communication secreatly without exchanging key first.
+
+so in generally in cryptocurrency world, 
+    generating private key is account creation.
+    address or username is derived from public key which is being gererated from private key.
+

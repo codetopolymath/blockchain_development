@@ -8,8 +8,8 @@ SYMMETRIC VS ASYMMETRIC CRYPTOGRAPHY:
             message ---> encrypted with private key ---> decrypt only with public key
         so with assymetric cryptography people can communication secreatly without exchanging key first.
 
-so in generally in cryptocurrency world, 
-    generating private key is account creation.
+so generally in cryptocurrency world, 
+    generating private key is equivalent to account creation.
     address or username is derived from public key which is being gererated from private key.
 
 HASHING:

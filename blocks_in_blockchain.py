@@ -36,7 +36,8 @@ block_C.parent_hash = hashlib.sha256(json.dumps(block_B.__dict__).encode("utf-8"
 
 """
 now lets say if we change any of history or other data that add's up for hash, the subsequent hash will also undergoes changes resulting changes
-in all subsequent hash. these hashes are well maintained by other nodes in blockchain and if a block found be different that other then ejected from chain itself.
+in all subsequent hash. these hashes are well maintained by other nodes in blockchain and if a block found be different that other then blocks 
+of chain for that perticular peer ejected from chain[network of peers] itself.
 """
 
 

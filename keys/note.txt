@@ -1,3 +1,4 @@
+SYMMETRIC AND ASSYMETRIC CRYPTOGRAPHY:
 way to generate keys is illustrated in public_vs_private_key.py file, please find instuction there.
 SYMMETRIC VS ASYMMETRIC CRYPTOGRAPHY:
     [*] symmetric cryptography uses same key in between sender and receiver. key is used to encrypt and decrypt message.
@@ -11,3 +12,12 @@ so in generally in cryptocurrency world,
     generating private key is account creation.
     address or username is derived from public key which is being gererated from private key.
 
+HASHING:
+function that take any length of input and gives fixed number of output.
+    IMP: the output of hashing function can be used as digital signature.
+    MINER: miner perform a extra action of finding string that will find solution [eg: putting 5 zero's in signature{calculated with hashing funcation in accordance} beginning]. this is to be done in loop with hashing function as signature is generated using it.
+
+PROOF OF WORK:
+    hashing make tampering hard but it is feasible.
+    so if we distributed append-only database to miners and some minor decided to change it other miner will eject him as data does not matches.
+    

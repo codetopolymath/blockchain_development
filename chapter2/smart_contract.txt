@@ -1,0 +1,7 @@
+in bitcoin we store -> value; in etherium we store -> code which we call smart_contract.
+smart_contract == trustless{system that does not requires trust between two parties} code {integrity gaurded by algorithms and cryptography}, with such code we can build application like:
+    [*] decentralized autonomous organization{DAO}
+    [*] secured voting system
+    [*] transparent digital tokens ... etc.,
+
+

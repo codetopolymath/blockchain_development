@@ -21,3 +21,6 @@ PROOF OF WORK:
     hashing make tampering hard but it is feasible.
     so if we distributed append-only database to miners and some minor decided to change it other miner will eject him as data does not matches.
     
+CONSENSUS:
+    for adding a new block into blockchain we broadcast it into miners network, in collection of block based on miners location[as all block can 
+    not be present to all miner at one time] miner will choose longest chain[block with more transcations] 
